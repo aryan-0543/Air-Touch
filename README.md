@@ -9,6 +9,7 @@ Install dependencies:
 
 ```bash
 pip install opencv-python mediapipe
+<!-- End of installation instructions -->
 
 Run the script:
 python HandTrackingModule.py
