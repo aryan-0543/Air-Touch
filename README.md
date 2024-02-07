@@ -7,9 +7,9 @@ This Python script utilizes the `mediapipe` library along with `cv2` (OpenCV) to
 
 Install dependencies:
 
-```bash
+```
 pip install opencv-python mediapipe
-<!-- End of installation instructions -->
+```
 
 Run the script:
 python HandTrackingModule.py
