@@ -1,4 +1,14 @@
 # Air-Touch
+This Python script implements an AI-based mouse controller using hand landmarks detected from a webcam feed. It utilizes the `mediapipe` library along with `OpenCV` to detect hand landmarks in real-time and then track and control the mouse cursor based on these landmarks.
+
+## Features
+
+- **Hand Detection:** Detects hands in real-time from webcam feed.
+- **Landmark Tracking:** Tracks landmarks of detected hands.
+- **Cursor Control:** Controls the mouse cursor based on hand movements.
+- **Click Simulation:** Simulates mouse clicks based on hand gestures.
+- **FPS Display:** Displays real-time Frames Per Second (FPS) information.
+
 # Real-time Hand Detection and Landmark Tracking
 
 This Python script utilizes the `mediapipe` library along with `cv2` (OpenCV) to perform real-time hand detection and landmark tracking from a webcam feed.
@@ -14,6 +24,9 @@ pip install opencv-python mediapipe
 Run the script:
 python HandTrackingModule.py
 
+Position your hand in front of the webcam to control the mouse cursor.
+
+Use hand gestures to move and click the mouse cursor.
 
 This Python script utilizes the mediapipe library to perform real-time hand detection and landmark tracking from webcam feed using the cv2 (OpenCV) library.
 
