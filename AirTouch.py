@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-import HandHoverModule as htm
+import AirTouchModule as htm
 import time
 import autopy
 
